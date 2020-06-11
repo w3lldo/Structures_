@@ -1,0 +1,25 @@
+2020.06.11 16:58:13 INFO  Generated JavaScript file '/Users/nan/SBTProjects/Structures_/.bloop/coreJS/coreJS.js'
+2020.06.11 16:58:24 INFO  running '/Library/Java/JavaVirtualMachines/jdk1.8.0_74.jdk/Contents/Home/jre/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -Xms2g -Xmx4g -XX:MaxMetaspaceSize=512m -jar /var/folders/vk/_sb2w8sd36q9y8c7bwmx8s880000gq/T/metals7534138652940429267/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2020.06.11 16:58:36 INFO  [info] Loading global plugins from /Users/nan/.sbt/1.0/plugins
+2020.06.11 16:58:45 INFO  [info] Loading settings for project structures_-build from plugins.sbt,metals.sbt ...
+2020.06.11 16:58:45 INFO  [info] Loading project definition from /Users/nan/SBTProjects/Structures_/project
+2020.06.11 16:58:52 INFO  [warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.
+2020.06.11 16:59:00 INFO  [info] Loading settings for project structures_ from version.sbt,build.sbt ...
+2020.06.11 16:59:01 INFO  [info] Set current project to structures_ (in build file:/Users/nan/SBTProjects/Structures_/)
+2020.06.11 16:59:05 INFO  [success] Generated .bloop/structures_-test.json
+2020.06.11 16:59:05 INFO  [success] Generated .bloop/structures_.json
+2020.06.11 16:59:05 INFO  [success] Generated .bloop/coreJVM-test.json
+2020.06.11 16:59:05 INFO  [success] Generated .bloop/coreJS.json
+2020.06.11 16:59:05 INFO  [success] Generated .bloop/coreJS-test.json
+2020.06.11 16:59:05 INFO  [success] Generated .bloop/coreJVM.json
+2020.06.11 16:59:05 INFO  [success] Total time: 3 s, completed 11-Jun-2020 16:59:05
+2020.06.11 16:59:05 INFO  build tool exit: 0
+2020.06.11 16:59:06 INFO  time: ran 'sbt bloopInstall' in 41s
+2020.06.11 16:59:06 INFO  disconnected: build server
+2020.06.11 16:59:06 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/nan/Library/Caches/org.scalameta.metals/bsp.trace.json
+2020.06.11 16:59:06 INFO  time: connected to build server in 0.26s
+2020.06.11 16:59:06 INFO  Connected to Build server v1.4.0-RC1-229-b7c15aa9
+2020.06.11 16:59:06 INFO  time: imported build in 0.14s
+2020.06.11 16:59:08 INFO  time: indexed workspace in 1.67s
+2020.06.11 16:59:10 INFO  Generated JavaScript file '/Users/nan/SBTProjects/Structures_/.bloop/coreJS/coreJS.js'
+2020.06.11 16:59:19 INFO  Generated JavaScript file '/Users/nan/SBTProjects/Structures_/.bloop/coreJS/coreJS-test.js'

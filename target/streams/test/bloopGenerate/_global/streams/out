@@ -1,0 +1,4 @@
+[debug] [structures_-test] Classpath dependencies List()
+[debug] [structures_-test] Dependencies from configurations List(structures_)
+[debug] Bloop wrote the configuration of project 'structures_-test' to '/Users/nan/SBTProjects/Structures_/.bloop/structures_-test.json'
+[success] Generated .bloop/structures_-test.json

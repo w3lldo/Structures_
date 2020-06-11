@@ -1,0 +1,320 @@
+{
+    "version": "1.4.0",
+    "project": {
+        "name": "coreJS-test",
+        "directory": "/Users/nan/SBTProjects/Structures_/core/js",
+        "workspaceDir": "/Users/nan/SBTProjects/Structures_",
+        "sources": [
+            "/Users/nan/SBTProjects/Structures_/core/js/src/test/scala-2.12",
+            "/Users/nan/SBTProjects/Structures_/core/js/src/test/scala",
+            "/Users/nan/SBTProjects/Structures_/core/js/src/test/java",
+            "/Users/nan/SBTProjects/Structures_/core/shared/src/test/scala-2.12",
+            "/Users/nan/SBTProjects/Structures_/core/shared/src/test/scala",
+            "/Users/nan/SBTProjects/Structures_/core/js/target/scala-2.12/src_managed/test"
+        ],
+        "dependencies": [
+            "coreJS"
+        ],
+        "classpath": [
+            "/Users/nan/SBTProjects/Structures_/.bloop/coreJS/scala-2.12/classes",
+            "/Users/nan/.sbt/boot/scala-2.12.10/lib/scala-library.jar",
+            "/Users/nan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalactic/scalactic_sjs0.6_2.12/3.1.0-SNAP13/scalactic_sjs0.6_2.12-3.1.0-SNAP13.jar",
+            "/Users/nan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-js/scalajs-test-interface_2.12/0.6.29/scalajs-test-interface_2.12-0.6.29.jar",
+            "/Users/nan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-js/scalajs-test-bridge_2.12/0.6.29/scalajs-test-bridge_2.12-0.6.29.jar",
+            "/Users/nan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalatestplus/scalatestplus-scalacheck_sjs0.6_2.12/1.0.0-SNAP8/scalatestplus-scalacheck_sjs0.6_2.12-1.0.0-SNAP8.jar",
+            "/Users/nan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest_sjs0.6_2.12/3.1.0-SNAP13/scalatest_sjs0.6_2.12-3.1.0-SNAP13.jar",
+            "/Users/nan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-js/scalajs-library_2.12/0.6.29/scalajs-library_2.12-0.6.29.jar",
+            "/Users/nan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalacheck/scalacheck_sjs0.6_2.12/1.14.2/scalacheck_sjs0.6_2.12-1.14.2.jar",
+            "/Users/nan/.sbt/boot/scala-2.12.10/lib/scala-reflect.jar"
+        ],
+        "out": "/Users/nan/SBTProjects/Structures_/.bloop/coreJS",
+        "classesDir": "/Users/nan/SBTProjects/Structures_/.bloop/coreJS/scala-2.12/test-classes",
+        "resources": [
+            "/Users/nan/SBTProjects/Structures_/core/js/src/test/resources",
+            "/Users/nan/SBTProjects/Structures_/core/js/target/scala-2.12/resource_managed/test"
+        ],
+        "scala": {
+            "organization": "org.scala-lang",
+            "name": "scala-compiler",
+            "version": "2.12.10",
+            "options": [
+                "-feature",
+                "-deprecation",
+                "-language:implicitConversions",
+                "-language:higherKinds",
+                "-Xlint",
+                "-Yno-adapted-args",
+                "-Ywarn-value-discard",
+                "-Ywarn-unused-import",
+                "-Ypartial-unification",
+                "-Xplugin:/Users/nan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-js/scalajs-compiler_2.12.10/0.6.29/scalajs-compiler_2.12.10-0.6.29.jar",
+                "-Xplugin:/Users/nan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/kind-projector_2.12/0.10.3/kind-projector_2.12-0.10.3.jar",
+                "-P:scalajs:mapSourceURI:file:/Users/nan/SBTProjects/Structures_/->https://raw.githubusercontent.com/functional-streams-for-scala/fs2/series/2.1/"
+            ],
+            "jars": [
+                "/Users/nan/.sbt/boot/scala-2.12.10/lib/scala-library.jar",
+                "/Users/nan/.sbt/boot/scala-2.12.10/lib/scala-compiler.jar",
+                "/Users/nan/.sbt/boot/scala-2.12.10/lib/jline.jar",
+                "/Users/nan/.sbt/boot/scala-2.12.10/lib/scala-reflect.jar",
+                "/Users/nan/.sbt/boot/scala-2.12.10/lib/jansi.jar",
+                "/Users/nan/.sbt/boot/scala-2.12.10/lib/scala-xml_2.12.jar"
+            ],
+            "analysis": "/Users/nan/SBTProjects/Structures_/core/js/target/streams/test/bloopAnalysisOut/_global/streams/inc_compile_2.12.zip",
+            "setup": {
+                "order": "mixed",
+                "addLibraryToBootClasspath": true,
+                "addCompilerToClasspath": false,
+                "addExtraJarsToClasspath": false,
+                "manageBootClasspath": true,
+                "filterLibraryFromClasspath": true
+            }
+        },
+        "java": {
+            "options": [
+                
+            ]
+        },
+        "test": {
+            "frameworks": [
+                {
+                    "names": [
+                        "org.scalacheck.ScalaCheckFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs2.runner.Specs2Framework",
+                        "org.specs2.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.scalatest.tools.Framework",
+                        "org.scalatest.tools.ScalaTestFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "com.novocode.junit.JUnitFramework"
+                    ]
+                }
+            ],
+            "options": {
+                "excludes": [
+                    
+                ],
+                "arguments": [
+                    {
+                        "args": [
+                            "-oDF"
+                        ],
+                        "framework": {
+                            "names": [
+                                "org.scalatest.tools.Framework",
+                                "org.scalatest.tools.ScalaTestFramework"
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        "platform": {
+            "name": "js",
+            "config": {
+                "version": "0.6.29",
+                "mode": "debug",
+                "kind": "none",
+                "emitSourceMaps": false,
+                "jsdom": false,
+                "toolchain": [
+                    
+                ]
+            },
+            "mainClass": [
+                
+            ]
+        },
+        "resolution": {
+            "modules": [
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.12.10",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "path": "/Users/nan/.sbt/boot/scala-2.12.10/lib/scala-library.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "/Users/nan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.10/scala-library-2.12.10-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-reflect",
+                    "version": "2.12.10",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-reflect",
+                            "path": "/Users/nan/.sbt/boot/scala-2.12.10/lib/scala-reflect.jar"
+                        },
+                        {
+                            "name": "scala-reflect",
+                            "classifier": "sources",
+                            "path": "/Users/nan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.10/scala-reflect-2.12.10-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalactic",
+                    "name": "scalactic_sjs0.6_2.12",
+                    "version": "3.1.0-SNAP13",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scalactic_sjs0.6_2.12",
+                            "path": "/Users/nan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalactic/scalactic_sjs0.6_2.12/3.1.0-SNAP13/scalactic_sjs0.6_2.12-3.1.0-SNAP13.jar"
+                        },
+                        {
+                            "name": "scalactic_sjs0.6_2.12",
+                            "classifier": "sources",
+                            "path": "/Users/nan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalactic/scalactic_sjs0.6_2.12/3.1.0-SNAP13/scalactic_sjs0.6_2.12-3.1.0-SNAP13-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-js",
+                    "name": "scalajs-test-interface_2.12",
+                    "version": "0.6.29",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scalajs-test-interface_2.12",
+                            "path": "/Users/nan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-js/scalajs-test-interface_2.12/0.6.29/scalajs-test-interface_2.12-0.6.29.jar"
+                        },
+                        {
+                            "name": "scalajs-test-interface_2.12",
+                            "classifier": "sources",
+                            "path": "/Users/nan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-js/scalajs-test-interface_2.12/0.6.29/scalajs-test-interface_2.12-0.6.29-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-js",
+                    "name": "scalajs-test-bridge_2.12",
+                    "version": "0.6.29",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scalajs-test-bridge_2.12",
+                            "path": "/Users/nan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-js/scalajs-test-bridge_2.12/0.6.29/scalajs-test-bridge_2.12-0.6.29.jar"
+                        },
+                        {
+                            "name": "scalajs-test-bridge_2.12",
+                            "classifier": "sources",
+                            "path": "/Users/nan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-js/scalajs-test-bridge_2.12/0.6.29/scalajs-test-bridge_2.12-0.6.29-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalatestplus",
+                    "name": "scalatestplus-scalacheck_sjs0.6_2.12",
+                    "version": "1.0.0-SNAP8",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scalatestplus-scalacheck_sjs0.6_2.12",
+                            "path": "/Users/nan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalatestplus/scalatestplus-scalacheck_sjs0.6_2.12/1.0.0-SNAP8/scalatestplus-scalacheck_sjs0.6_2.12-1.0.0-SNAP8.jar"
+                        },
+                        {
+                            "name": "scalatestplus-scalacheck_sjs0.6_2.12",
+                            "classifier": "sources",
+                            "path": "/Users/nan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalatestplus/scalatestplus-scalacheck_sjs0.6_2.12/1.0.0-SNAP8/scalatestplus-scalacheck_sjs0.6_2.12-1.0.0-SNAP8-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalatest",
+                    "name": "scalatest_sjs0.6_2.12",
+                    "version": "3.1.0-SNAP13",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scalatest_sjs0.6_2.12",
+                            "path": "/Users/nan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest_sjs0.6_2.12/3.1.0-SNAP13/scalatest_sjs0.6_2.12-3.1.0-SNAP13.jar"
+                        },
+                        {
+                            "name": "scalatest_sjs0.6_2.12",
+                            "classifier": "sources",
+                            "path": "/Users/nan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest_sjs0.6_2.12/3.1.0-SNAP13/scalatest_sjs0.6_2.12-3.1.0-SNAP13-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-js",
+                    "name": "scalajs-library_2.12",
+                    "version": "0.6.29",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scalajs-library_2.12",
+                            "path": "/Users/nan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-js/scalajs-library_2.12/0.6.29/scalajs-library_2.12-0.6.29.jar"
+                        },
+                        {
+                            "name": "scalajs-library_2.12",
+                            "classifier": "sources",
+                            "path": "/Users/nan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-js/scalajs-library_2.12/0.6.29/scalajs-library_2.12-0.6.29-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalacheck",
+                    "name": "scalacheck_sjs0.6_2.12",
+                    "version": "1.14.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scalacheck_sjs0.6_2.12",
+                            "path": "/Users/nan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalacheck/scalacheck_sjs0.6_2.12/1.14.2/scalacheck_sjs0.6_2.12-1.14.2.jar"
+                        },
+                        {
+                            "name": "scalacheck_sjs0.6_2.12",
+                            "classifier": "sources",
+                            "path": "/Users/nan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalacheck/scalacheck_sjs0.6_2.12/1.14.2/scalacheck_sjs0.6_2.12-1.14.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.12.10",
+                    "configurations": "optional",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "path": "/Users/nan/.sbt/boot/scala-2.12.10/lib/scala-library.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "/Users/nan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.10/scala-library-2.12.10-sources.jar"
+                        }
+                    ]
+                }
+            ]
+        },
+        "tags": [
+            "test"
+        ]
+    }
+}
